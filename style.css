@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+canvas {
+  border: 2px solid white;
+  background: url('assets/road.png');
+  background-size: cover;
+}
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.controls.left {
+  left: 20px;
+}
+
+.controls.right {
+  right: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  opacity: 0.8;
+}
